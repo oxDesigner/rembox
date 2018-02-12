@@ -1,0 +1,12 @@
+{
+    "name": "rembox",
+    "description": "移动端css的rem单位解决方案",
+    "version": "1.0.0",
+    "author": "oxDesigner <280441190@qq.com>",
+    "license": "MIT",
+    "main": "rembox.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oxDesigner/rembox"
+    }
+}
