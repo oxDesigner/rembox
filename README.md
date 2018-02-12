@@ -56,13 +56,13 @@
 750设计稿&&iphone5：
 
 ```javascript
-	rembox.conver(1); // 42.666666666666664
+	rembox.conver(1); // 42.7
 ```
 
 640设计稿&&iphone6：
 
 ```javascript
-	rembox.conver(1); // 58.59375
+	rembox.conver(1); // 58.6
 ```
 
 ## 作者

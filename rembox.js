@@ -18,7 +18,9 @@
 
 	rembox.flexobj = function () {
 		var html = document.documentElement;
-		var n = html.getBoundingClientRect().width / (rembox.setting.design_width / 100);
+		var html_width = html.getBoundingClientRect().width;
+		var para = rembox.setting.design_width / 100;
+		var n = (html_width / para).toFixed(1);
 		if (n > 100) n = 100;
 		html.style.fontSize = n + 'px';
 		rembox.n = n;
