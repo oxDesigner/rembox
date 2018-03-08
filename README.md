@@ -1,5 +1,9 @@
 # rembox
 移动端css的rem单位解决方案
+<br>
+1.0.1 => 解决了部分特殊字符引发的打包错误；
+<br>
+1.0.2 => 解决了部分安卓手机（也可能是手机用户放大或缩小了默认字体）webview中rem布局页面元素放大或缩小的问题；
 
 
 ## 安装
@@ -7,8 +11,7 @@
 
 ### 用script标签引入
 
-
-下载[here](https://github.com/oxDesigner/rembox/blob/master/rembox.js)并引入:
+[点击这里下载](https://github.com/oxDesigner/rembox/blob/master/rembox.js)并引入:
 
 
 ``` html
